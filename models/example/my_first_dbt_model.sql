@@ -25,3 +25,8 @@ from source_data
 */
 
 -- where id is not null
+
+
+select
+  'Hola, dbt!' as mensaje,
+  current_date() as fecha_actual
