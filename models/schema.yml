@@ -2,9 +2,9 @@ sources:
   - name: raw       # Este será el "alias" del dataset gz_raw_data
     schema: gz_raw_data
     tables:
-      - name: raw_gz_sales
-        alias: sales
+      - name: sales
+        identifier: raw_gz_sales
       - name: raw_gz_product
-        alias: product
+        identifier: product
       - name: raw_gz_ship
-        alias: ship
+        identifier: ship
