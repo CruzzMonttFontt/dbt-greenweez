@@ -1,0 +1,10 @@
+sources:
+  - name: raw       # Este será el "alias" del dataset gz_raw_data
+    schema: gz_raw_data
+    tables:
+      - name: sales
+        identifier: raw_gz_sales
+      - name: raw_gz_product
+        identifier: product
+      - name: raw_gz_ship
+        identifier: ship
